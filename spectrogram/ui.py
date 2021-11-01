@@ -24,7 +24,7 @@ class MainWindow(QMainWindow):
 
         self.spectrogram = spectrogram
         self.image_view = image_view
-        self.scale = (self.spectrogram.window_size / self.spectrogram.recorder.rate / 2,
+        self.scale = ((self.spectrogram.window_size - self.spectrogram.window_overlap) / self.spectrogram.recorder.rate,
                       self.spectrogram.recorder.rate / self.spectrogram.window_size)
 
         spectrogram.data_updated.connect(self.update)

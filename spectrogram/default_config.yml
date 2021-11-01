@@ -4,4 +4,5 @@ recorder:
 
 spectrogram:
   duration: 60          # Duration of the spectrogram in seconds
-  window_size : 1024    # Window size for fft
+  window_size : 2048    # Window size for fft
+  window_overlap: 1536  # Window overlapping

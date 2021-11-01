@@ -1,0 +1,13 @@
+name: spectrogram
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pip
+  - pyaudio
+  - pyqtgraph
+  - pyside2
+  - pytest
+  - python
+  - pyyaml
+

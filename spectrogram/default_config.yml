@@ -1,0 +1,7 @@
+
+recorder:
+  rate: 16384           # Sampling rate in Hz
+
+spectrogram:
+  duration: 60          # Duration of the spectrogram in seconds
+  window_size : 1024    # Window size for fft

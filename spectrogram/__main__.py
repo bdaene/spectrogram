@@ -1,19 +1,19 @@
 import logging
 import sys
-from time import sleep
 
-from PySide2 import QtWidgets
+from PySide2.QtWidgets import QApplication
 
-from core import Recorder, Spectrogram
+from spectrogram.calculation import Spectrogram
 from spectrogram.config import load_config
-from ui import MainWindow
+from spectrogram.recorder import Recorder
+from spectrogram.ui import MainWindow
 
 
 def main():
     logging.basicConfig(level=logging.DEBUG)
     load_config()
 
-    app = QtWidgets.QApplication()
+    app = QApplication()
 
     recorder = Recorder()
     spectrogram = Spectrogram(recorder)

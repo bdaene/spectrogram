@@ -1,3 +1,7 @@
+"""
+User interface
+"""
+
 import pyqtgraph
 from PySide2.QtGui import QIcon
 from PySide2.QtWidgets import QMainWindow

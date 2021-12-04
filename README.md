@@ -18,6 +18,6 @@ conda activate spectrogram
 
 ## Example
 
-Fur-elise as captured by my microphone
+Für Elise as captured by my microphone
 
 ![Alt text](doc/fur_elise.png?raw=true "Title")

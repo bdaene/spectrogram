@@ -2,14 +2,6 @@
 
 Create a live spectrogram from the default audio device.
 
-## Installation using pip
-(Not working yet)
-
-You will need:
- - Microsoft Visual C++ Redistributable from https://visualstudio.microsoft.com/downloads/
- - QT libraries from *TODO*
-
-Then run `pip install .`
 
 ## Installation using conda  
 
@@ -22,3 +14,10 @@ conda activate spectrogram
 ## Running
 
 `python -m spectrogram`
+
+
+## Example
+
+Fur-elise as captured by my microphone
+
+![Alt text](doc/fur_elise.png?raw=true "Title")
